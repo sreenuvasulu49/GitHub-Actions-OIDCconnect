@@ -1,0 +1,34 @@
+///ARC////
+
+#
+kubectl create secret generic eks-github-app \
+        --namespace=arc-runners \
+        --from-literal=github_app_id=962423 \
+       -- from-literal=github_app_installation_id=53518101
+       —from-literal=github_app_private_key=-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA4u+FDGAo354W33nN7RPF7/aG3gqel5e/IriJUnTb6vNWr3GL
+or6mcO8Tog89WtIOAw8Y6eCctLqi2i89sUp9bMwjJ++gDjeFbuR89g6v8qOAFZV+
++Ef0gELOfhJqj/1rJKFcjF+RAlHx02ibyJrNLY23T3MR5NaF3Iazmywviwik3M8d
+InnQNV8avJHRqSx6+RUFKY31HRVg/SSmeKSgcWr51MGaDUR+pVY0ajNxv/7L935U
+3yTDIDIx9cdYNFnbhb/iceT70XL7AYN8n15Cn13hsh+b56TSeoFhNmLtrPy5U21K
+Ip61NiBPYjEuaWJJM/suC8CJp/94jqBqTAiWgQIDAQABAoIBAQCJGj/9jBLllrMm
+7IXW131cTkqI102dNFaLeYWtRWCf/8e9UxITjq8rx6TK4f4lYoaInpRkqAjEv4Un
+4Cabd+9yzZnnxMOkEzMQHgbI+XKfWtxFLf55ra8v1iy+yg2LVIVoqfwp6orHJg69
+tJN5jNysytOWsmR7JofVBaR4+Sb4DWs+l3f0qhp/DmuJQLqSTc4W69msWio3/kfr
+sTA90zmyaE8inL0sJ7B+SamMYs9LBanQBw2y1Pol7IIPwIY5JdCrRy8smIMkAyDR
+ryH3i9HOCtoBu6icllaX8W9IML5r4fMok74+EnZpcsSnG18tEu8W6BmiJEa4ayme
+xEXIBWMpAoGBAP2i3cSgLVm7iNwt/F68tqLpUrLMoYafJyLLgnuqHsp3kpcWr8oZ
+IVoS4GbSbUeuC0RINd77N8TXxAmVrrW6eB0CMhT4GPhjOABeubTxaoI/2C4W4v7M
+IiiY+rNVe2m+6/hB3r8GT3LgUjdASCbWJV4t6cQXX439t3fSXpSZEU2HAoGBAOUM
+80gpu25piZ9z9OVH7v6NnozPmVTpsktRvA5Wp04VdBS45dxCKKxZtDKL/cvx0ul5
+CzT5545K3ry/M6lBExdOQ+J6QGV40cCH0F1AO1sin/BT6P98oYKK0mWOdFvM2wfw
+/XZeu56w1VxpCDEsDwzDKr4ir61WCO/Y/bjphz23AoGAbIqcOR8LCVGV+hO74pcD
+2afb+iRUI5ZMWzmYN2/QCXkuRHYy+FvUyAU3/wiiN4Cl1azJUQlVDmn/vNJPl/ma
+mV9tK0gY94MOXiorcuG1YNQNoXut3LhjDdiZwNEeJVzNAsq9liYPLewNgxOBTQ1r
+pGglmAMgo1UmhKKEUzdGDlUCgYAUycQavI7iSnnPGvsTBCBQwhGtvfmwlzUzWMu0
+kXDFyXSrnMxf3TFL0yhjngj+xYfa4L1/pV66r1jf0IqjxeAxsUy/9VB65ShETQ9A
+J2A7uTzC1xrCdVFDQ84soW02F7WZVunqIFbu5CW5KV8w90q2YdAzSXqgRLqy6gK9
+EZTQqQKBgQCZu8qEd9CJdiZ0Il5s+bghFEjRN8s+q9672pm3fgeRhLGn3CMrDUW7
+lGCLrThyNPemqLqCOTNncMCBVXv92QA9yXLroV6crBIWFySKVGSZYEqQvvg7TBde
+fCqmIpj8+8KCZqS/xkivBqqzoemXmWxuLEtUk6NaCfZ7KQgZOFbuyw==
+-----END RSA PRIVATE KEY-----
